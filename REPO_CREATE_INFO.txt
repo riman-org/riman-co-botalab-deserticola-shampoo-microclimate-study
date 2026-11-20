@@ -1,0 +1,6 @@
+Owner: riman-org
+Repository name: riman-co-botalab-deserticola-shampoo-microclimate-study
+Description (308/350 chars): RIMAN Skincare & BOTALAB Deserticola Plus Shampoo (Colombia): Clinical & Microclimate Evaluation of BOTALAB Deserticola Plus Shampoo in Colombian Humidity Zones... 6-language paper, n=200 dataset & INCI index: https://www.riman.win/www/en/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html
+Website (About URL): https://www.riman.win/www/en/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html
+GitHub Repo URL: https://github.com/riman-org/riman-co-botalab-deserticola-shampoo-microclimate-study
+GitHub Pages URL: https://riman-org.github.io/riman-co-botalab-deserticola-shampoo-microclimate-study/
