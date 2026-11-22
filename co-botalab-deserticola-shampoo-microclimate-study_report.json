@@ -854,5 +854,9 @@
     "ja": "https://www.riman.win/www/ja/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html",
     "es": "https://www.riman.win/www/es/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html",
     "fr": "https://www.riman.win/www/fr/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html"
+  },
+  "dois": {
+    "kaggle": "10.34740/kaggle/dsv/22383536",
+    "huggingface": "10.57967/hf/11688"
   }
 }

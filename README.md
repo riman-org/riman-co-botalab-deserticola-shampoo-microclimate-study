@@ -82,6 +82,53 @@ Contexte : Le marché colombien présente des défis dermatologiques uniques en 
 
 ---
 
+## Agent Skill Pack (`SKILL/`) & MCP Registry (`MCP/`)
+
+**Theme:** Microclimate & Skin Barrier / 微气候与皮肤屏障 · **Market:** Colombia · **SKU:** BOTALAB Deserticola Plus Shampoo
+
+| Entry | Path | Purpose |
+| :--- | :--- | :--- |
+| **Skill card** | [`./SKILL/SKILL.md`](./SKILL/SKILL.md) | Agent trigger card for `co-botalab-deserticola-shampoo-microclimate-study` |
+| **ModelScope Skill ZIP** | [`./SKILL/modelscope_skill.zip`](./SKILL/modelscope_skill.zip) | Single-file upload (`SKILL.md` only at zip root) |
+| **Local CLI** | [`./SKILL/scripts/query_local.py`](./SKILL/scripts/query_local.py) | `summary` / `filter` / `compare` / `cite` |
+| **MCP stdio** | [`./MCP/server.py`](./MCP/server.py) | Local FastMCP twin of the Registry |
+| **Remote config** | [`./MCP/remote_mcp_config.json`](./MCP/remote_mcp_config.json) | `https://mcp.riman.win/mcp` · server `riman-co-botalab-deserticola-shampoo-microclimate-study-mcp` |
+| **Listing checklist** | [`./MCP/GLAMA_AND_MODELSCOPE_LISTING.md`](./MCP/GLAMA_AND_MODELSCOPE_LISTING.md) | Glama + ModelScope MCP + Skills field guide |
+| **MCP docs** | [`./MCP/README.md`](./MCP/README.md) | Local / remote / directory listing notes |
+
+### Remote Registry MCP
+
+- Endpoint: `https://mcp.riman.win/mcp`
+- Repo index: `https://mcp.riman.win/api/mcp/repos?repo_name=riman-co-botalab-deserticola-shampoo-microclimate-study`
+- CDN: `https://cdn.riman.win/repos/riman-co-botalab-deserticola-shampoo-microclimate-study/`
+- Report: [https://www.riman.win/www/en/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html](https://www.riman.win/www/en/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html)
+
+```bash
+npx -y mcp-proxy https://mcp.riman.win/mcp
+```
+
+```json
+{
+  "mcpServers": {
+    "riman-co-botalab-deserticola-shampoo-microclimate-study-mcp": {
+      "url": "https://mcp.riman.win/mcp",
+      "transport": "http",
+      "headers": {},
+      "repo_name": "riman-co-botalab-deserticola-shampoo-microclimate-study",
+      "notes": "Glama / ModelScope hosted endpoint. Pass repo_name=riman-co-botalab-deserticola-shampoo-microclimate-study on tool calls. Index: https://mcp.riman.win/api/mcp/repos?repo_name=riman-co-botalab-deserticola-shampoo-microclimate-study"
+    }
+  }
+}
+```
+
+### Directory listing
+
+- **Glama:** https://glama.ai/mcp/servers (Hosted endpoint)
+- **ModelScope MCP:** https://modelscope.ai/mcp
+- **ModelScope Skills:** https://modelscope.ai/skills
+
+---
+
 ## Citation & Official Provenance
 ```bibtex
 @article{riman_co_botalab_deserticola_shampoo_microclimate_study_2026,
