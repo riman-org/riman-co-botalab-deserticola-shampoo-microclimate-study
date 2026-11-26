@@ -860,9 +860,9 @@
     "fr": "https://www.riman.win/www/fr/reports/detail/co-botalab-deserticola-shampoo-microclimate-study.html"
   },
   "dois": {
+    "zenodo": "10.5281/zenodo.24436329",
     "kaggle": "10.34740/kaggle/dsv/22383536",
     "huggingface": "10.57967/hf/11688",
-    "zenodo": "10.5281/zenodo.24436329",
     "harvard_dataverse": "10.7910/DVN/NT45V6"
   }
 }
